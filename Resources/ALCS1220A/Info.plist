@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC S1220A</string>
+				<string>Toleda - Realtek ALC S1220A, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -22,11 +22,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC S1220A</string>
+				<string>Toleda - Realtek ALC S1220A, 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
 				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda - Realtek ALC S1220A, 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -65,6 +73,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Toleda - Realtek ALC S1220A</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone - Realtek ALC S1220A</string>
 				<key>Id</key>
 				<integer>5</integer>
@@ -83,6 +99,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

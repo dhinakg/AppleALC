@@ -70,6 +70,30 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y410P by yunsur</string>
+				<key>Id</key>
+				<integer>41</integer>
+				<key>Path</key>
+				<string>layout41.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y430P by yunsur</string>
+				<key>Id</key>
+				<integer>43</integer>
+				<key>Path</key>
+				<string>layout43.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y510P by yunsur</string>
+				<key>Id</key>
+				<integer>51</integer>
+				<key>Path</key>
+				<string>layout51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC282 Hasee K580C by YM2008</string>
 				<key>Id</key>
 				<integer>76</integer>
@@ -153,6 +177,30 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y410P by yunsur</string>
+				<key>Id</key>
+				<integer>41</integer>
+				<key>Path</key>
+				<string>Platforms41.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y430P by yunsur</string>
+				<key>Id</key>
+				<integer>43</integer>
+				<key>Path</key>
+				<string>Platforms43.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y510P by yunsur</string>
+				<key>Id</key>
+				<integer>51</integer>
+				<key>Path</key>
+				<string>Platforms51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC282 Hasee K580C by YM2008</string>
 				<key>Id</key>
 				<integer>76</integer>
@@ -179,6 +227,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

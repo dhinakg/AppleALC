@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC1220</string>
+				<string>Toleda - Realtek ALC1220, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -22,11 +22,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC1220</string>
+				<string>Toleda - Realtek ALC1220, 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
 				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda - Realtek ALC1220, 3 audio ports, native: 2 inputs, 1 output+front panel+SPDIF/Optical</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -76,6 +84,14 @@
 				<key>Path</key>
 				<string>layout16.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lostwolf - ALC1220 for Gigabyte Z370-HD3P</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>layout27.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -92,6 +108,14 @@
 				<string>Toleda - Realtek ALC1220</string>
 				<key>Id</key>
 				<integer>2</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda - Realtek ALC1220</string>
+				<key>Id</key>
+				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
 			</dict>
@@ -143,10 +167,30 @@
 				<key>Path</key>
 				<string>Platforms16.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lostwolf - ALC1220 for Gigabyte Z370-HD3P</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>Platforms27.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
