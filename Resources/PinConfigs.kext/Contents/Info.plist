@@ -911,28 +911,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
-					<key>CodecID</key>
-					<integer>283902517</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccQAEnHQABJx6gAScfsAFHHBABRx0AAUce
-					FwFHH5ABRwwCAZccMAGXHRABlx6BAZcfAAIX
-					HGACFx0QAhceIQIXHwA=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>28</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
@@ -951,6 +929,50 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>15</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>MacPeet - Realtek ALC235 for ASUS GL553VD</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AhccIAIXHRACFx4rAhcfAAG3HDABtx0AAbce
+					pwG3H5ABlxwwAZcdEAGXHosBlx8BAUccQAFH
+					HQABRx4XAUcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQABJx6gAScfsAFHHBABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6BAZcfAAIX
+					HGACFx0QAhceIQIXHwA=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -1093,6 +1115,32 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC236 for DELL-5488 by Daggeryu</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIX
+					HwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>54</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
@@ -1378,6 +1426,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>DalianSky - Realtek ALC255 (3246) for alienware alpha r2</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgF3
+					HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgAB
+					hx9AAZccEAGXHRABlx6LAZcfAgGnHPABpx0A
+					AaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAdcc
+					8AHXHQAB1x4AAdcfQAHnHJAB5x3gAeceRQHn
+					HwECFxwwAhcdEAIXHisCFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC256</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
@@ -1520,6 +1594,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Kk for magicbook</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHDABlx0QAZceiwGXHwIB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4Q
+					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIX
+					HwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>57</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>MacPeet - Realtek ALC257 for Lenovo T480</string>
 					<key>CodecID</key>
 					<integer>283902551</integer>
@@ -1573,6 +1673,24 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>DalianSky - ALC262 for MS-7480N1</string>
+					<key>CodecID</key>
+					<integer>283902562</integer>
+					<key>ConfigData</key>
+					<data>
+					AVccYAFXHUABVx4BAVcfAQFHHFABRx1AAUce
+					IQFHHwEBhxwgAYcdMAGHHoEBhx8BAaccEAGn
+					HZABpx6iAacfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2568,6 +2686,34 @@
 					<key>CodecID</key>
 					<integer>283902576</integer>
 					<key>Comment</key>
+					<string>ALC270 for Asus A46CB-WX024D Laptop by Andres ZeroCross</string>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYccIAGH
+					HRABhx6BAYcfBAGXHDABlx0BAZceoAGXH5AB
+					pxwgAacdEAGnHiEBpx8EAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhcc8AIXHQACFx4AAhcfQAFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC270</string>
+					<key>CodecID</key>
+					<integer>283902576</integer>
+					<key>Comment</key>
 					<string>ALC270 for Asus Laptop with alternative microphone</string>
 					<key>ConfigData</key>
 					<data>
@@ -2845,6 +2991,28 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>cowpod - Realtek ALC280 - Optiplex 9020SFF</string>
+					<key>CodecID</key>
+					<integer>283902592</integer>
+					<key>ConfigData</key>
+					<data>
+					AaccMAGnHZABpx6BAacfAgGHHEABhx0wAYce
+					gQGHHwEBRxxQAUcdAAFHHhcBRx+QAUcMAgFX
+					HGABVx1AAVceIQFXHwIBVwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -3767,7 +3935,7 @@
 					<key>ConfigData</key>
 					<data>
 					ASccIAEnHQEBJx6gAScfkAF3HBABdx0BAXce
-					FwF3H5ABlxwQAZcdEAGXHoEBlx8EAhccMAIX
+					FwF3H5ABlxxAAZcdEAGXHoEBlx8EAhccMAIX
 					HRACFx4hAhcfBAF3DAICFwwC
 					</data>
 					<key>FuncGroup</key>
@@ -4224,18 +4392,22 @@
 					<integer>283902616</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccIAEnHQABJx6gAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXccQAF3
-					HQABdx4XAXcfkAGHHBABhx0QAYcegQGHHwIB
+					ASccEAEnHQEBJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXccIAF3
+					HQEBdx4XAXcfkAGHHDABhx0QAYcegQGHHwMB
 					lxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4A
 					AacfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
 					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
-					HDACFx0QAhceIQIXHwIBdwwCAhcMAg==
+					HEACFx0QAhceIQIXHwMBdwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -5868,6 +6040,56 @@
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
+					<string>MacPeet - alc892 for MSI B150M MORTAR - SwitchMode</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgFXHDABVx0QAVceAQFX
+					HwEBlxxQAZcdkAGXHoEBlx8CAWcccAFnHWAB
+					Zx4BAWcfAQGHHIABhx2QAYceoAGHH5ABpxyQ
+					AacdMAGnHoEBpx8BAeccsAHnHRAB5x5FAecf
+					AQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
+					<string>MacPeet - alc892 for MSI B150M MORTAR - ManualMode</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgFXHDABVx0QAVceAQFX
+					HwEBlxxQAZcdkAGXHoEBlx8CAWcccAFnHWAB
+					Zx4BAWcfAQGHHIABhx2QAYceoAGHH5ABpxyQ
+					AacdMAGnHoEBpx8BAeccsAHnHRAB5x5FAecf
+					AQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
 					<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 					<key>ConfigData</key>
 					<data>
@@ -5936,6 +6158,30 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>92</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
+					<string>Custom ALC892 for HASEE K770e i7 D1 by gitawake</string>
+					<key>ConfigData</key>
+					<data>
+					ARcc8AEXHQABFx4AARcfQAEnHGABJx0BASce
+					pgEnH5ABRxwQAUcdAQFHHhcBRx+QAUcMAgFX
+					HPABVx0AAVceAAFXH0ABZxzwAWcdAAFnHgAB
+					Zx9AAXccIAF3HRABdx4BAXcfAQGHHFABhx0Q
+					AYcegQGHHwEBlxzwAZcdAAGXHgABlx9AAacc
+					UAGnHRABpx6BAacfAQG3HDABtx0QAbceIQG3
+					HwEBtwwCAccc8AHHHQABxx4AAccfQAHXHPAB
+					1x0AAdceAAHXH0AB5xxAAecdEQHnHkUB5x8B
+					Afcc8AH3HQAB9x4AAfcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>97</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -6668,6 +6914,49 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>MacPeet- ALC1220 for Z390 Aorus Ultra - Output SP/HP Manualmode </string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcd
+					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
+					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
+					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwE=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>Custom ALC1220 for MSI P65 Creator by CleverCoder</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHRABRx4RAUcfAAFHDAIBtxwgAbcd
+					AAG3HhcBtx+QAbcMAgGXHDABlx0QAZcegQGX
+					HwABJxxAAScdAAEnHqYBJx+Q
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>34</integer>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>
@@ -6857,6 +7146,42 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>7</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>Realtek ALC S1220A RodionS, Nacho 2.0 outputs(green), 2 inputs (blue)+front panel (mic fr.panel), mic (pink), headphones(lime), SPDIF/Optical </string>
+					<key>ConfigData</key>
+					<data>AUceEAGHHqABhx+RAZcegQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>20</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>Realtek ALC S1220A RodionS, Nacho 5.1 outputs(green, black, orange), 2 inputs (blue)+front panel (mic fr.panel), mic (pink), headphones(lime), SPDIF/Optical </string>
+					<key>ConfigData</key>
+					<data>AUceEAGHHqABhx+RAZcegQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
@@ -8102,6 +8427,25 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>VIA VT1802 for hasee k650d</string>
+					<key>CodecID</key>
+					<integer>285639750</integer>
+					<key>ConfigData</key>
+					<data>
+					AkccEAJHHQACRx4TAkcfkAJXHCACVx1AAlce
+					IQJXHwEClxxAApcdAAKXHqAClx+QArccYAK3
+					HZACtx6BArcfAgLXHHAC1x0QAtceRALXHwAC
+					RwwCAlcMAw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>65</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
