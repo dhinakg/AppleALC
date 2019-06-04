@@ -3,25 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>LayoutID</key>
-	<integer>99</integer>
+	<integer>13</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>283902616</integer>
+				<integer>283902549</integer>
 			</array>
 			<key>Headphone</key>
-			<dict>
-				<key>AmpPostDelay</key>
-				<integer>50</integer>
-				<key>AmpPreDelay</key>
-				<integer>100</integer>
-				<key>DefaultVolume</key>
-				<integer>4292870144</integer>
-				<key>Headset_dBV</key>
-				<integer>-1055916032</integer>
-			</dict>
+			<dict/>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
@@ -32,7 +23,7 @@
 				<key>DefaultVolume</key>
 				<integer>4293722112</integer>
 				<key>MaximumBootBeepValue</key>
-				<integer>48</integer>
+				<integer>64</integer>
 				<key>MuteGPIO</key>
 				<integer>0</integer>
 				<key>SignalProcessing</key>
@@ -1121,7 +1112,7 @@
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>1342242854</integer>
+				<integer>1342242843</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -1450,11 +1441,14 @@
 			</dict>
 			<key>Outputs</key>
 			<array>
-				<string>IntSpeaker</string>
 				<string>Headphone</string>
+				<string>IntSpeaker</string>
+				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>298</integer>
+			<integer>255</integer>
+			<key>SPDIFOut</key>
+			<dict/>
 		</dict>
 	</array>
 </dict>
