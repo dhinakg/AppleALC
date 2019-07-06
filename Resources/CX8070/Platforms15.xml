@@ -20,8 +20,6 @@
 	<key>PathMaps</key>
 	<array>
 		<dict>
-			<key>Comments</key>
-			<string>lgs3137 - Realtek ALC298 MECHREVO S1</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -55,17 +53,13 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>9</integer>
+								<integer>20</integer>
 							</dict>
 							<dict>
+								<key>Boost</key>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>34</integer>
-							</dict>
-							<dict>
-                                				<key>Boost</key>
-                                				<integer>1</integer>
-								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>26</integer>
 							</dict>
 						</array>
 					</array>
@@ -99,17 +93,13 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>19</integer>
 							</dict>
 							<dict>
+								<key>Boost</key>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>35</integer>
-							</dict>
-							<dict>
-                                				<key>Boost</key>
-                                				<integer>3</integer>
-								<key>NodeID</key>
-								<integer>24</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
@@ -118,34 +108,8 @@
 					<array>
 						<array>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
 								<key>NodeID</key>
-								<integer>20</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>13</integer>
+								<integer>23</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -175,41 +139,15 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>3</integer>
+								<integer>17</integer>
 							</dict>
 						</array>
 					</array>
 					<array>
 						<array>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
 								<key>NodeID</key>
-								<integer>33</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>12</integer>
+								<integer>22</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -239,14 +177,14 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>2</integer>
+								<integer>16</integer>
 							</dict>
 						</array>
 					</array>
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>298</integer>
+			<integer>15</integer>
 		</dict>
 	</array>
 </dict>

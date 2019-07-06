@@ -38,11 +38,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series with Subwoofer</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>layout14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
 				<key>Path</key>
 				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross for Asus VivoBook Pro 17  N705UDR</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -97,11 +113,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series with Subwoofer</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
 				<key>Path</key>
 				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross for Asus VivoBook Pro 17  N705UDR</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

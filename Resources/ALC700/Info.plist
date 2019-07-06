@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>MacPeet</string>
+	<string>osy</string>
 	<key>CodecID</key>
-	<integer>6532</integer>
+	<integer>1792</integer>
 	<key>CodecName</key>
-	<string>AD1984</string>
+	<string>ALC700</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>MacPeet - AD1984 - for_IBM_Lenovo_ThinkPad_T61_T61p</string>
+				<string>Custom by osy - Realtek ALC700 for NUC HC</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>MacPeet - AD1984 - for_IBM_Lenovo_ThinkPad_T61_T61p</string>
+				<string>Custom by osy - Realtek ALC700 for NUC HC</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -89,13 +89,37 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>hBnUEQ==</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>hBnUEQ==</data>
+			<data>AAfsEA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>hAjsEA==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>hQjsEA==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -111,24 +135,8 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>ihnUEQ==</data>
-			<key>MinKernel</key>
-			<integer>16</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-	</array>
-	<key>Revisions</key>
-	<array>
-		<integer>1049600</integer>
 	</array>
 	<key>Vendor</key>
-	<string>AnalogDevices</string>
+	<string>Realtek</string>
 </dict>
 </plist>

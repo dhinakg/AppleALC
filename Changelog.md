@@ -1,8 +1,26 @@
 AppleALC Changelog
 ==================
+#### v1.4.0
+- Unified release archive names
+
 #### v1.3.9
 - Allow loading on 10.15 without `-lilubetaall`
-
+- Added ALC272 layout-id 18 for Lenovo B570 and B570e by Sniki
+- Added Conexant CX8070 (CX11880) layout-id 15 for Lenovo ThinkPad E590 by MacPeet
+- Added ALC1220 layout-id 29 for Z390 Aorus Ultra - Output SP/HP SwitchMode by MacPeet
+- Added Conexant CX8200 layout-id 15 for HP ZbooK 15UG4 by MacPeet
+- Update AD1984 layout-id 11 by MacPeet
+- Added ALC663 layout-id 15 for Fujitsu Celsius r670 by MacPeet
+- Added ALC700 layout-id 11 for NUC HC
+- Added AMD Vega-M HDMI
+- Added ALC235 layout-id 12 for Lenovo Rescuer 15ISK by Z39
+- Added ALC235 layout-id 21 for Lenovo C530 Desktop PC by Andres ZeroCross
+- Added ALC256 layout-id 22 for Asus VivoBook Pro 17 N705UDR by Andres ZeroCross
+- Added ALC255(3234) layout-id 11 for dell optiplex by Heporis
+- Added ALC256 layout-id 14 for Dell Series with Subwoofer courtesy of @insanelydeepak
+- Update ALC892 layout-id 97 by gitawake
+- Update ALC298 layout-id 66 for MECHREVO S1 by lgs3137
+- Added ALCS1220A layout-id 11 for Asus Z270-G (based on Mirone's layout 7) by Kushamot 
 
 #### v1.3.8
 - Fixed rare random audio init failure on 10.14
