@@ -20,8 +20,6 @@
 	<key>PathMaps</key>
 	<array>
 		<dict>
-			<key>Comment</key>
-			<string> DalianSky Realtek ALC256 (3246) for MateBook X Pro 2019 </string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -55,7 +53,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -85,13 +83,13 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>1</integer>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>19</integer>
 							</dict>
 						</array>
 					</array>
@@ -159,9 +157,9 @@
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>1</integer>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>25</integer>
+								<integer>27</integer>
 							</dict>
 						</array>
 					</array>
@@ -173,7 +171,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -222,7 +220,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -268,7 +266,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>256</integer>
+			<integer>289</integer>
 		</dict>
 	</array>
 </dict>
