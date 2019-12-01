@@ -57,6 +57,11 @@ void AlcEnabler::updateProperties() {
 		// Assume that IGPU with connections means built-in digital audio.
 		bool hasBuiltinDigitalAudio = !devInfo->reportedFramebufferIsConnectorLess && devInfo->videoBuiltin;
 
+		// Respect desire to disable digital audio. This may be particularly useful for configurations
+		// with broken digital audio, resulting in kernel panics. Ref: https://github.com/acidanthera/bugtracker/issues/513
+		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx"))
+			hasBuiltinDigitalAudio = false;
+
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
 		if (devInfo->audioBuiltinDigital && validateInjection(devInfo->audioBuiltinDigital)) {
 			if (hasBuiltinDigitalAudio) {
@@ -178,10 +183,13 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 			uint32_t alcId;
 			if (WIOKit::getOSDataValue(hdaService, "alc-layout-id", alcId)) {
 				DBGLOG("alc", "found normal alc-layout-id %u", alcId);
-			} else if (info->firmwareVendor != DeviceInfo::FirmwareVendor::Apple &&
-					   WIOKit::getOSDataValue(hdaService, "layout-id", alcId)) {
-				DBGLOG("audio", "found legacy alc-layout-id (from layout-id) %u", alcId);
-				hdaService->setProperty("alc-layout-id", &alcId, sizeof(alcId));
+			} else if (info->firmwareVendor != DeviceInfo::FirmwareVendor::Apple) {
+				if (WIOKit::getOSDataValue(hdaService, "layout-id", alcId)) {
+					DBGLOG("alc", "found legacy alc-layout-id (from layout-id) %u", alcId);
+					hdaService->setProperty("alc-layout-id", &alcId, sizeof(alcId));
+				} else {
+					SYSLOG("alc", "error: neither alc-layout-id nor layout-id is found in configuration");
+				}
 			}
 		}
 
