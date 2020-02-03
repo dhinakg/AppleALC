@@ -3,113 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>MacPeet</string>
+	<string>Vandroiy</string>
 	<key>CodecID</key>
-	<integer>610</integer>
+	<integer>533</integer>
 	<key>CodecName</key>
-	<string>ALC262</string>
+	<string>ALC215</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DalianSky- ALC262 for MS-7480N1</string>
+				<string>ALC215 for HP 830 G6 for 965987400abc</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>18</integer>
 				<key>Path</key>
-				<string>layout7.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>layout11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Goldfish64 - ALC262 for HP Compaq dc7700 SFF</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>layout12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262 for Fujitsu Celsius H270</string>
-				<key>Id</key>
-				<integer>13</integer>
-				<key>Path</key>
-				<string>layout13.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262 for HP Z800-Z600 series</string>
-				<key>Id</key>
-				<integer>28</integer>
-				<key>Path</key>
-				<string>layout28.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ALC262 for MS-7847</string>
-				<key>Id</key>
-				<integer>66</integer>
-				<key>Path</key>
-				<string>layout66.xml.zlib</string>
+				<string>layout18.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DalianSky- ALC262 for MS-7480N1</string>
+				<string>ALC215 for HP 830 G6 for 965987400abc</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>18</integer>
 				<key>Path</key>
-				<string>Platforms7.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>Platforms11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Goldfish64 - ALC262 for HP Compaq dc7700 SFF</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>Platforms12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262 for Fujitsu Celsius H270</string>
-				<key>Id</key>
-				<integer>13</integer>
-				<key>Path</key>
-				<string>Platforms13.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>MacPeet - ALC262 for HP Z800-Z600 series</string>
-				<key>Id</key>
-				<integer>28</integer>
-				<key>Path</key>
-				<string>Platforms28.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ALC262 for MS-7847</string>
-				<key>Id</key>
-				<integer>66</integer>
-				<key>Path</key>
-				<string>Platforms66.xml.zlib</string>
+				<string>Platforms18.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -169,13 +89,25 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hBnUEQ==</data>
+			<data>ixnUEQ==</data>
 			<key>MinKernel</key>
-			<integer>12</integer>
+			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>YgLsEA==</data>
+			<data>FQLsEA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>hBnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -207,11 +139,33 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hAjsEA==</data>
-			<key>MaxKernel</key>
-			<integer>14</integer>
+			<data>YgLsEA==</data>
 			<key>MinKernel</key>
-			<integer>12</integer>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>YQLsEA==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ihnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>16</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -220,9 +174,7 @@
 	</array>
 	<key>Revisions</key>
 	<array>
-		<integer>1048832</integer>
-		<integer>1049346</integer>
-		<integer>1049090</integer>
+		<integer>1048578</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>
